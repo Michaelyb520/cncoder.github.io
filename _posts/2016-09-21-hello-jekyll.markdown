@@ -1,7 +1,6 @@
 ---
 layout:     post
 title:      "利用GitHub Pages10分钟打造个性域名博客"
-subtitle:   " \"只需要买个域名，服务器的钱都省了，0环境要求\""
 date:       2016-09-21 00:00:00
 author:     "Romennts"
 
