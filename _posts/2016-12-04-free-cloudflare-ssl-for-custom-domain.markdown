@@ -4,8 +4,6 @@ title:      "为自定义域名的GitHub Pages添加SSL 完整方案 "
 
 date:       2016-12-04 02:35:00
 author:     "Romennts"
-header-mask: 0.1
-catalog: true
 
 tags:
     - https

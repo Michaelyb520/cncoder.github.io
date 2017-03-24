@@ -5,7 +5,6 @@ title:      "【译】5个步骤加快STS运行速度（Eclipse适用）"
 date:       2016-12-01 21:30:00
 author:     "Romennts"
 
-catalog: true
 tags:
     - Eclipse
     - 译文

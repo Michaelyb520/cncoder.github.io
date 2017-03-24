@@ -1,7 +1,6 @@
 ---
 layout:     post
 title:      "Git简易指南(上)"
-subtitle:   " \"这节是完全面向入门者的，我假设你从零开始创建一个项目并且想用Git来进行版本控制，因此本文会避开分支这些相对复杂的概念。\""
 date:       2016-09-24 00:00:00
 author:     "童仲毅(geeeeeeeeek@github)"
 
