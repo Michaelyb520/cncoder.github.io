@@ -10,6 +10,8 @@ tags:
     - ubuntu
 ---
 
+* content
+{:toc}
 
 > 由于GFW的存在，如果不使用代理的方法安装docker将会非常慢，以下是在虚拟机中可以使用物理机的shadowsock代理安装
 

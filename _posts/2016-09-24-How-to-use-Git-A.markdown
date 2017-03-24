@@ -9,6 +9,9 @@ tags:
     - 转载
 ---
 
+* content
+{:toc}
+
 > 除非另行注明，页面上所有内容采用知识共享-署名([CC BY 2.5 AU](http://creativecommons.org/licenses/by/2.5/au/deed.zh))协议共享。[git-guide](https://github.com/rogerdudler/git-guide/) 项目对本文亦有贡献。
 
 这节是完全面向入门者的，我假设你从零开始创建一个项目并且想用Git来进行版本控制，因此本文会避开分支这些相对复杂的概念。

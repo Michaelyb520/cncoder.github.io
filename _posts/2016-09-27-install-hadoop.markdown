@@ -10,6 +10,8 @@ tags:
     - 大数据
 ---
 
+* content
+{:toc}
 
 > 这是入坑Hadoop 几周了笔记和总结，鉴于之前一直安装不成功，而且网上的教程大多不正确，本文详细记录了如何在无界面情况下用xshell连接AWS ec2 ubuntu 搭建Hadoop 2.6 伪分布环境，以及运行自带的wordcount实例的详细步骤。我暂且假设读者对Hadoop并无太多了解，对Ubuntu的常见操作有一定了解。
 

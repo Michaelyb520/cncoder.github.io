@@ -7,6 +7,9 @@ categories: jekyll
 tags: 教程 GithubPage
 ---
 
+* content
+{:toc}
+
 > “先到github fork 我的blog库即可创建自己的GitHub Pages ”
 
 

@@ -9,6 +9,8 @@ tags:
     - Git
 ---
 
+* content
+{:toc}
 
 > 因为自己在做的一个项目并不打算开源，而又不想自己搭建Git Server，了解之下，AWS的CodeCommit服务5 位活动用户内是免费的，小型项目的确是不错的选择。
 
