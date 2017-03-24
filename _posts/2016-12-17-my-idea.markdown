@@ -4,8 +4,7 @@ title:      "还好那天我弹奏的是一架没有声音的钢琴"
 date:       2016-12-17 21:23:00
 author:     "Romennts"
 categories: 随笔
-tags:
-    - 随笔
+tags: 随笔
 ---
 
 

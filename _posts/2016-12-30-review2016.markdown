@@ -4,8 +4,7 @@ title:      "图说 2016年"
 date:       2016-12-30 14:35:00
 author:     "Romennts"
 categories: 随笔
-tags:
-    - 随笔 review
+tags: 随笔 review
 ---
 
 * content
