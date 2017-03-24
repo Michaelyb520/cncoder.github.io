@@ -3,9 +3,9 @@ layout:     post
 title:      "Git简易指南(上)"
 date:       2016-09-24 00:00:00
 author:     "童仲毅(geeeeeeeeek@github)"
-
+categories: Git
 tags:
-    - git
+    - Git
     - 转载
 ---
 

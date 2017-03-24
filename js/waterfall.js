@@ -18,7 +18,7 @@
         img_link: 'https://yicodes.com/wemysise/images/web/a2.jpg',
         code_link: 'https://github.com/cncoder/wemysise',
         title: '一体化校园移动小程序',
-        core_tech: 'Wechat',
+        core_tech: 'JavaScript Java',
         description: 'We华软是碎片化、一站式、一体化校园移动门户，适用于学生，集课表、成绩、考试、考勤、资讯等各功能于一身。还有强大的学生客服帮你更好使用小程序，快速解决使用问题'
     }];
 

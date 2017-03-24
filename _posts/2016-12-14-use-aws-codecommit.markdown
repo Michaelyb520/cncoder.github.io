@@ -3,7 +3,7 @@ layout:     post
 title:      "AWS CodeCommit代码托管服务使用与各区域速度对比"
 date:       2016-12-14 18:35:00
 author:     "Romennts"
-
+categories: Git
 tags:
     - AWS
     - Git

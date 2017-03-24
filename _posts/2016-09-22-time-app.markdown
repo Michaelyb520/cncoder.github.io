@@ -4,7 +4,7 @@ title:      "时间杀手： 赖床 + 社交App"
 
 date:       2016-09-22 16:00:00
 author:     "Romennts"
-
+categories: 随笔
 tags:
     - 生活
 ---

@@ -3,8 +3,8 @@ layout:     post
 title:      "利用GitHub Pages10分钟打造个性域名博客"
 date:       2016-09-21 00:00:00
 author:     "Romennts"
-
-tags: Tech 自制教程
+categories: jekyll
+tags: 教程 GithubPage
 ---
 
 > “先到github fork 我的blog库即可创建自己的GitHub Pages ”
