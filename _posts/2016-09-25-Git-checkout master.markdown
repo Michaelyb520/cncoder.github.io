@@ -1,10 +1,8 @@
 ---
 layout:     post
 title:      "检出之前的提交"
-
 date:       2016-09-25 00:00:00
 author:     "童仲毅(geeeeeeeeek@github)"
-
 tags:
     - git
     - 转载
