@@ -4,7 +4,7 @@ title:      "个人网址收录——不断增加中"
 
 date:       2016-10-13 19:00:00
 author:     "Romennts"
-categories： 全栈
+categories: 全栈
 tags:
     - 全栈
     - 职业

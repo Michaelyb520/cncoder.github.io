@@ -1,10 +1,9 @@
 ---
 layout:     post
 title:      "成为全栈工程师一般的学习路径是怎样的?"
-
 date:       2016-10-10 09:30:00
 author:     "Romennts"
-categories： 全栈
+categories: 全栈
 tags:
     - 全栈
     - 职业

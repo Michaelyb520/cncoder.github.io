@@ -21,7 +21,7 @@ Google Fans，主要使用Java，从后端到前端，从Java到Javascript，从
 
 EXPERIENCE：
 
-* “we华软” 微信小程序
+* "we华软" 微信小程序
 * 多次获得校奖学金
 
 Being a Full Stack Developer...

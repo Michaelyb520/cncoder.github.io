@@ -4,7 +4,7 @@ title:      "学习Java并发&&Spring前提知识"
 
 date:       2016-11-16 20:30:00
 author:     "Romennts"
-categories： Java
+categories: Java
 tags:
     - Java
     - Spring

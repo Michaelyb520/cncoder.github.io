@@ -4,7 +4,7 @@ title:      "在Ubuntu 16.04 安装docker "
 
 date:       2016-12-02 18:35:00
 author:     "Romennts"
-categories： 运维
+categories: 运维
 tags:
     - docker
     - ubuntu

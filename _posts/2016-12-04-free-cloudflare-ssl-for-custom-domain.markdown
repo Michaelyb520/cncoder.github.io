@@ -4,7 +4,7 @@ title:      "为自定义域名的GitHub Pages添加SSL 完整方案 "
 
 date:       2016-12-04 02:35:00
 author:     "Romennts"
-categories： 运维
+categories: 运维
 tags:
     - https
     - 安全
