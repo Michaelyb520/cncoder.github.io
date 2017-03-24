@@ -4,7 +4,7 @@ title:      "使用AWS Ubuntu14.04安装Hadoop与配置伪分布详细教程"
 
 date:       2016-09-27 09:30:00
 author:     "Romennts"
-categories： 云计算
+categories: 云计算
 tags:
     - Hadoop
     - 大数据
