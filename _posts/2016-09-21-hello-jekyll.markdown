@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      "利用GitHub Pages10分钟打造个性域名博客"
-date:       2016-09-21 00:00:00
+date:       2016-09-21 09:30:00
 author:     "Romennts"
 categories: jekyll
 tags: 教程 GithubPage
