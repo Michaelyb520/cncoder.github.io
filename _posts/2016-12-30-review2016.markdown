@@ -20,6 +20,9 @@ tags:
 
 我是2015年4月在github创建账号，到2016年4月才push了第一行代码，那时候因为安卓课程设计要做个教务系统的爬虫，无从下手，到github，看到很多现成的爬虫框架，对我产生很大帮助，同时把自己做的 [开源](https://github.com/cncoder/mysiseLogin)了，感觉代码写得太渣了，Java的坑还有很多要填补。
 
+
+
+
 5月份的时候，想用php写个微信弹幕，发现这个点子已经有很多实现了，不过很多都是商业化的了，开源里做得最好还是 [@弹幕派](https://github.com/DanmakuPie)，可以直接接入微信公众号使用了。也是这个时候开始放弃世界上最好的语言php的坑（轻拍轻拍），觉得php做大型系统并不好控制，可能是因为自己的见识太浅吧。下定决心走Java路线。
 
 然后在Github误打误撞的又认识了各路大神 [@gaocegege](https://github.com/gaocegege)  、[@ferventdesert](https://github.com/ferventdesert) , 他们给予我多多少少的帮助。在这安利[@ferventdesert](https://github.com/ferventdesert)大神的 [可视化爬虫软件](https://github.com/ferventdesert/Hawk)，数据清洗能力很强，识别率也很高。11月拿来做了个链家广州的房价统计，觉得数据是有了，但是 **算法** 环节弱爆了，概率论统计学什么的都还给老师了，分析出来的结果没什么价值。认识到在计算机领域，10W+ 行代码只能帮你到编码能力的级别，需要自定义实现真正有用的东西，就要理解底层、算法去优化。

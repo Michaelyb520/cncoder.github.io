@@ -18,6 +18,9 @@ tags:
 4. assertEquals表示断言
 5. 一个测试类是@Test方法的容器
 
+
+
+
 #### 使用Suite与Runner组合测试
 
 1. Suite允许你将测试类归成一组

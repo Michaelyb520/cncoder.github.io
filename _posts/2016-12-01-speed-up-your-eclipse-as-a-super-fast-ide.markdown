@@ -25,6 +25,10 @@ startup action:  Windows -> Preferences, 点 “startup”, 选择不需要的�
 * 定义STS.ini设置Xmn ， （Eclipse是 eclipse.ini）
 以下是我在8G内存电脑的设置
 
+
+
+
+
 ```
 
 -startup

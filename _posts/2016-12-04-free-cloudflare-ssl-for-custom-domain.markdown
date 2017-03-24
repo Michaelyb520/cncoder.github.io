@@ -23,6 +23,9 @@ tags:
 5. 在 cloudflare 配置 page rule ，一个是 always use https ，一个是 redirect http 到 https
 **每一步的操作可能需要 5-30 分钟才能起效**
 
+
+
+
 #### 为什么使用Cloudflare提供的免费SSL
 
 收费的SSL服务总是比免费的更加周到，一般收费的SSL都会提供端到端的加密。但是价格不菲，对于个人博客来说，这是一笔不必要的开销。我只是需要看到网站地址栏有绿色的锁头，那就证明我们的网站相对安全了。
