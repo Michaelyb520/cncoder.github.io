@@ -13,7 +13,7 @@ type: page
 
 <iframe src="https://githubbadge.appspot.com/cncoder?s=1" style="border: 0;height: 142px;width: 200px;overflow: hidden;" frameBorder="0"></iframe>
 
-大三在校学生，网名易极。
+在校大三学生，网名易极。
 
 Google Fans，主要使用Java，从后端到前端，从Java到Javascript，从开发到运维，从大数据到人工智能，喜欢学习研究新技术，然后中途弃坑。写代码有性能强迫症。
 
