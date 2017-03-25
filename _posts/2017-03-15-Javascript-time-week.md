@@ -18,10 +18,12 @@ author: Romennts
 
 那么new Date()能接受的参数格式到底是什么标准呢?显然到了这里可以知道，ios和android 执行的标准不一样，new Date()传入字符串格式需要满足 **RFC2822** 标准或者 **ISO 8601** 标准，我用的是ISO 8601标准日期字符串 **（YYYY-MM-DDThh:mm:ss）** ，而RFC2822 标准日期字符串长这样的：**YYYY/MM/DD HH:MM:SS ± timezon(时区用4位数字表示)** ，按道理有ISO应该好很多，毕竟是国际标准化组织的东西，然而事实并非如此， **RFC2822** 兼容性才是最好的，比如 **IE8、Safari、iOS** 均不支持ISO 8601。IE这种东西你可能会不屑，不过iOS也有这个坑，不得不去提防，所以建议大家还是用 **RFC2822** 。回到小程序，在new Date()传入参数的标准改为RFC2822，兼容性问题解决，终于计算出准确的教学周。之后为了更优雅的完成教学周的计算，通过改写Date实例，定义schoolweek获取器，它会返回当前到指定时间的周数间隔。简单地访问该属性就会调用事先定义好的函数，无需显示调用。来源不明的函数还是要多加留意，如果是引入不明依赖，水更深，特别是在开发重要的系统，更需要严格审核每个依赖包。
 
-**更优雅的完成教学周的计算**
-
 ```js
-<script>
+/**
+ * 更优雅的完成教学周的计算
+ * {Date} BEGIN_DAY    开学时间
+ * @return {Number}    当前教学周
+ */
     Date.prototype.__defineGetter__('schoolweek', function(){
       var BEGIN_DAY = new Date('2017/02/27');
       var diff = ((this.getTime() - BEGIN_DAY.getTime()) / 1000), 
@@ -34,10 +36,7 @@ author: Romennts
 
     var a = new Date('2017/03/28');
     console.log(a.schoolweek); //5
-</script>
 ```
- 
-
  
 说到这里兼容性问题已经非常凸显，应了那句话，一进前端深似海~~一直以为只有IE是浏览器一大奇葩，现在多了一朵，傲娇的iOS系统居然也不支持**ISO 8601**日期字符串，其实在web开发过程中，兼容性多是浏览器执行标准的问题。IE逐渐退出舞台，微软都放弃了，我想应该无需什么保留了，但面对iOS就不能那么任性了，顺便说一下，一开头说的 **Calendar.WEEK_OF_YEAR**  是Java 的 **SimpleDateFormat** jar，建议不要使用，推荐使用Java8 Time，SimpleDateFormat也是挺坑的，简单点就是 SimpleDateFormat 时间对象序列化成字符串之后，反序列化成和原对象表达不是同一个时间的时间对象了，如果是维护遗留项目没法改的话小心点咯，新项目建议尽量不要使用SimpleDateFormat jar。
  
