@@ -3,7 +3,7 @@ layout: post
 title:  "高性能MySQL开山(第一章)"
 categories: MySQL
 tags:  MySQL 读书笔记 性能优化
-author: HyG 
+author: Romennts 
 ---
 
 * content
