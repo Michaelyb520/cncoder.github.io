@@ -16,8 +16,6 @@ author: Romennts
 最近和朋友协作开发，我负责在微信小程序前端调用接口，朋友负责用Java Web开发，感觉用java web有点小题大做。Git作为版本控制，在这安利一下 AWS CodeCommit ，2月1日的gitlab事件，虽然git作为一种分布式的存在，主中心服务器丢失数据损失不大，但还是让我觉得选择靠谱的Git服务器还是很重要的，关键是AWS家的这款产品还是免费使用的，很赞。在开发过程中，使用tomcat服务器部署，每次修改代码后都要push一次，然后再在本地打包成war再上传服务器，甚是麻烦。之前看《轻量级微服务架构》这本书有说Jenkins使用，正好符合我的需求~
 
 
-
-
 ## 技术栈说明
 
 * tomcat 7.0 服务器（windows server 2012） 
@@ -146,37 +144,30 @@ java web&&Maven项目配置
 
 部署完打开 http://localhost/jenkins 按要求设置就可以了。
 
-用管理员账号登录Jenkins后，第一次使用前，需要在“系统管理”->“Global Tool Configuration”->设置jdk，Git，Maven ，我是使用系统中的，并不使用Jenkins自动安装的。如果你想使用自动安装也可以，“Maven”中新增一个Maven，直接输入一个名字，选中“自动安装”，Jenkins会自动下载并安装Maven，可是不知道为什么windows server2012下多次不成功，直接上图：
+用管理员账号登录Jenkins后，第一次使用前，需要在“系统管理”->“Global Tool Configuration”->设置jdk，Git，Maven ，我是使用系统中的，并不使用Jenkins自动安装的。如果你想使用自动安装也可以，“Maven”中新增一个Maven，直接输入一个名字，选中“自动安装”，Jenkins会自动下载并安装Maven，可是不知道为什么windows server2012下多次不成功
 
 
-安装Jenkins插件: 系统管理 -> 管理插件 -> 可选插件， 在这里直接搜索以下插件且安装
+* 安装Jenkins插件: 系统管理 -> 管理插件 -> 可选插件， 在这里直接搜索以下插件且安装
 
-GIT plugin (可能已经默认安装了) 
-Maven Integration plugin 
-Deploy to container Plugin 
-按照提示创建一个任务，选择Maven Project
+* GIT plugin (可能已经默认安装了) 
+* Maven Integration plugin 
+* Deploy to container Plugin 
 
+* 按照提示创建一个任务，选择Maven Project
+* 在配置页中，源码管理选择Git，填入地址：
+![](https://yicodes.com/img/jenkins/add_git.png)
 
+![](https://yicodes.com/img/jenkins/built.png)
 
-在配置页中，源码管理选择Git，填入地址：
+* MAVEN相关设置：
+![](https://yicodes.com/img/jenkins/maven.png)
 
+* 在执行完MAVEN命令后，我们就把打包好的war文件部署到tomcat服务器：
+![](https://yicodes.com/img/jenkins/deploy.png)
 
-
-
-
-MAVEN相关设置：
-
-
-
-在执行完MAVEN命令后，我们就把打包好的war文件部署到tomcat服务器：
-
-
-
-保存后，就可以执行自动化构建了。
+* 保存后，就可以执行自动化构建了。
 
 部署成功！！！ tomcat服务器看到有对应的服务正在运行
-
-
 
 ## 后记
 

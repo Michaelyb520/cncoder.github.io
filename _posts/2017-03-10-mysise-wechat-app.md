@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "we华软小程序发布以及迭代史"
-categories: Javascript
-tags:  Javascript web 小程序
+categories: 小程序
+tags:  web 小程序
 author: Romennts 
 ---
 
