@@ -15,7 +15,7 @@
     var demoContent = [
         {
         demo_link: 'https://yicodes.com/wemysise/',
-        img_link: 'https://yicodes.com/wemysise/images/demo/wxapp.jpg',
+        img_link: 'https://yicodes.com/wemysise/ima/demo/wxapp.jpg',
         code_link: 'https://github.com/cncoder/wemysise',
         title: '一体化校园移动小程序',
         core_tech: 'JavaScript Java',
