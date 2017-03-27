@@ -32,20 +32,19 @@ $("input").on("click", { foo: "hello" }, handler);
 
 ```javascript
 $(document).ready(function(){
-
     $('#btn').on('click',function(){
-        
         var str = $('#str').val();
-       
-        $('<li>').text(str).appendTo('ul');
-        
+        $('<li>').text(str).appendTo('ul'); 
         $('#str').val('');
     })
 
     //To do list双击删除
     $(document).on('dblclick','li',function(){
-
         $(this).remove();
     })
 });
 ```
+
+3. on()事件绑定的妙用：我们经常要在网页里面处理大量的表格，如果为每个tr都绑定一个click事件是非常占用内存的，而更加优雅的方法是：使用父元素tbody作事件代理，只需绑定一次，子孙元素tr上发生的事件会冒泡到tbody进行处理，节省开销
+
+```javascript
