@@ -42,7 +42,7 @@ tags:
 
 **首先你已经有自己的自定义域名的GitHub Pages** ，我的 GitHub Pages cname文件写的是 yicodes.com
 
-> 实现目标： 当访客输入 yicodes.com 强制跳转使用https，访问wwww 也会跳转到https://yicodes.com
+> 实现目标： 当访客输入 yicodes.com 强制跳转使用https，访问wwww 也会跳转到https://www.yicodes.com
 
 * 如果你还没有Cloudflare账号，[点击注册](https://www.cloudflare.com/a/sign-up)
 
@@ -50,48 +50,48 @@ tags:
 
 > 注意不要写WWW前缀，大约60秒即可完成域名解析扫描。完成后点击 **Continue Setup** 继续下一步
 
-![Add Websites](https://yicodes.com/img/gpssl/github-page-ssl-1.png)
+![Add Websites](https://www.yicodes.com/img/gpssl/github-page-ssl-1.png)
 
 * 你看到DNS记录（包括子域）列表之后，按照下图提示设置后，其中cname是为了重定向www准备的，点击 **Continue** 下一步
 
-![DNS records](https://yicodes.com/img/gpssl/dnsrecord.png)
+![DNS records](https://www.yicodes.com/img/gpssl/dnsrecord.png)
 
 * 选择免费计划，然后下一步~
 
-![plan](https://yicodes.com/img/gpssl/plan.png)
+![plan](https://www.yicodes.com/img/gpssl/plan.png)
 
 * 到你域名控制面板修改cloudflare给出的域名服务器，我这里以 **Godaddy** 为例
 
-![updata-nameservers](https://yicodes.com/img/gpssl/updata-nameservers.png)
+![updata-nameservers](https://www.yicodes.com/img/gpssl/updata-nameservers.png)
 
-![updata-nameservers1](https://yicodes.com/img/gpssl/updata-nameservers1.png)
+![updata-nameservers1](https://www.yicodes.com/img/gpssl/updata-nameservers1.png)
 
-![updata-nameservers2](https://yicodes.com/img/gpssl/updata-nameservers2.png)
+![updata-nameservers2](https://www.yicodes.com/img/gpssl/updata-nameservers2.png)
 
 注：官方说明，**域名服务器修改最长需要72小时生效** ，用了两个域名测试，大约需要 **5~30** 分钟，看到 **Status: Active** 即可
 
-![status](https://yicodes.com/img/gpssl/status.png)
+![status](https://www.yicodes.com/img/gpssl/status.png)
 
 #### 设置SSL
 
 * 点击 **crypto** 菜单 , 然后设置 **Flexible** SSL ，如下图
 
-![full_SSL](https://yicodes.com/img/gpssl/flexiblessl.png)
+![full_SSL](https://www.yicodes.com/img/gpssl/flexiblessl.png)
 
-* 添加www重定向到https://yicodes.com
+* 添加www重定向到https://www.yicodes.com
 
-![full_SSL](https://yicodes.com/img/gpssl/add301.png)
+![full_SSL](https://www.yicodes.com/img/gpssl/add301.png)
 
 * 添加自动重定向到 SSL页面
 
-![full_SSL](https://yicodes.com/img/gpssl/forcessl.png)
+![full_SSL](https://www.yicodes.com/img/gpssl/forcessl.png)
 
 
 添加SSL的教程就此完成，**一般需要5~30分钟生效！！！** 如果你有疑问，欢迎到我博客留言
 
 ##### 原文地址（转载前发邮件知会即可：romennts@gmail.com）
 
-**https://yicodes.com/2016/12/04/free-cloudflare-ssl-for-custom-domain/**
+**https://www.yicodes.com/2016/12/04/free-cloudflare-ssl-for-custom-domain/**
 
 #### 参考资料
 1. [cloudflare官方使用指南](https://blog.cloudflare.com/secure-and-fast-github-pages-with-cloudflare/)
@@ -103,7 +103,7 @@ tags:
 
 * 只有微信支付~~赶紧黑一波支付宝全家桶
 
-![欢迎捐赠](https://yicodes.com/img/wechatpay.png)
+![欢迎捐赠](https://www.yicodes.com/img/wechatpay.png)
 
 
 #### 后记

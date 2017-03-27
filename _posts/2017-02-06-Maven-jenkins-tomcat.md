@@ -157,15 +157,15 @@ java web&&Maven项目配置
 
 * 按照提示创建一个任务，选择Maven Project
 * 在配置页中，源码管理选择Git，填入地址：
-![](https://yicodes.com/img/jenkins/add_git.png)
+![](https://www.yicodes.com/img/jenkins/add_git.png)
 
-![](https://yicodes.com/img/jenkins/built.png)
+![](https://www.yicodes.com/img/jenkins/built.png)
 
 * MAVEN相关设置：
-![](https://yicodes.com/img/jenkins/maven.png)
+![](https://www.yicodes.com/img/jenkins/maven.png)
 
 * 在执行完MAVEN命令后，我们就把打包好的war文件部署到tomcat服务器：
-![](https://yicodes.com/img/jenkins/deploy.png)
+![](https://www.yicodes.com/img/jenkins/deploy.png)
 
 * 保存后，就可以执行自动化构建了。
 

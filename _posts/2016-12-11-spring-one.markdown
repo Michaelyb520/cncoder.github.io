@@ -97,7 +97,7 @@ db2.pw=dsadsa
 > 如果你需要弄懂这里的原理，你需要熟知Java继承（用接口实现多重继承）
 
 ##### 原文地址（转载前发邮件知会即可：romennts@gmail.com）
-https://yicodes.com/2016/12/11/spring-one/
+https://www.yicodes.com/2016/12/11/spring-one/
 
 #### 参考资料
 

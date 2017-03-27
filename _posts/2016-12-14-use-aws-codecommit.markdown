@@ -28,7 +28,7 @@ tags:
 * 和Github差不多，不一样的是你需要使用
 **[IAM](https://console.aws.amazon.com/iam/home?#home)** 管理使用成员，虽然不是强制，但是AWS强烈要求这样做，commit的时候也方便识别是谁~方便管理
 
-![use](https://yicodes.com/img/use-aws.png)
+![use](https://www.yicodes.com/img/use-aws.png)
 
 > 说明一下: AWS把主用户认为是root用户，root用户不能使用SSH方式连接代码库，只能使用HTTPS，IAM 的user就可以用SSH
 
@@ -66,7 +66,7 @@ Clone your repository to your local computer and start working on code:
 * 欧洲 (爱尔兰)： 基本可以忽略这个区域，非常慢，比Github还慢.....
 
 ##### 原文地址（转载前发邮件知会即可：romennts@gmail.com）
-https://yicodes.com/2016/12/14/use-aws-codecommit/
+https://www.yicodes.com/2016/12/14/use-aws-codecommit/
 
 #### 参考资料
 

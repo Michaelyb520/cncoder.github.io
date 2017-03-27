@@ -14,7 +14,7 @@ tags: 随笔 review
 
 2016年 [Github](https://github.com/cncoder) 的时间线:
 
-![title](https://yicodes.com/img/review/gitcon.png)
+![title](https://www.yicodes.com/img/review/gitcon.png)
 
 我是2015年4月在github创建账号，到2016年4月才push了第一行代码，那时候因为安卓课程设计要做个教务系统的爬虫，无从下手，到github，看到很多现成的爬虫框架，对我产生很大帮助，同时把自己做的 [开源](https://github.com/cncoder/mysiseLogin)了，感觉代码写得太渣了，Java的坑还有很多要填补。
 
@@ -27,7 +27,7 @@ tags: 随笔 review
 
 [番茄土豆](https://pomotodo.com/intl/zh-CN/) 工作线&&小米运动记录的时间线：
 
-![](https://yicodes.com/img/review/todo.jpg)
+![](https://www.yicodes.com/img/review/todo.jpg)
 
 * 番茄土豆是我唯一一个付费使用的APP，看到这个统计图自惭形愧啊，即使算上自己没有记录的番茄，一年下来，没有一个星期的番茄数达标，而且中断率很高。特别是暑假、寒假（2，7，8月份）几乎没有完成过番茄，可想而知在家的效率是其低无比的。
 
@@ -38,10 +38,10 @@ tags: 随笔 review
 2016，学校图书馆闭馆大半年，并没有看很多的书，反而杂七杂八的书买了一大堆，花了不少银子，计算机的书贼贵~11月新图书馆开了，终于体会到在校生就应该多用图书馆的道理，而且作为软件学院，相关的书籍更新得非常的快，不过图书管理员分类得不规范XD~
 
 2016借书记录：
-![](https://yicodes.com/img/review/booklist1.png)
+![](https://www.yicodes.com/img/review/booklist1.png)
 
 
-![](https://yicodes.com/img/review/booklist3.jpg)
+![](https://www.yicodes.com/img/review/booklist3.jpg)
 
 2016在前端技术花费了很多时间，Node.js,JavaScript, JQuery全都只是 **入门** 了，然后又很快的退坑了，说实话，我还是挺乐意把Node.js 作为次选的开发语言，性能不错，包管理方面也很方便。不过未来还是专注Java Web多一点。专业课学得太划水了，很多到了学期末才来预习怎么使用，终究还是因为2016中，个人定位还不够准确。兜兜转转，才回到Java的路线。
 
