@@ -33,17 +33,19 @@ $("input").on("click", { foo: "hello" }, handler);
 ```javascript
 $(document).ready(function(){
 
-		$('#btn').on('click',function(){
-			var str = $('#str').val();
-			console.log(str)
-			$('<li>').text(str).appendTo('ul');
-			
-			$('#str').val('');
-		})
+    $('#btn').on('click',function(){
+        
+        var str = $('#str').val();
+       
+        $('<li>').text(str).appendTo('ul');
+        
+        $('#str').val('');
+    })
 
-        //To do list双击删除
-		$(document).on('dblclick','li',function(){
-			$(this).remove();
-		})
-	});
+    //To do list双击删除
+    $(document).on('dblclick','li',function(){
+
+        $(this).remove();
+    })
+});
 ```
