@@ -26,6 +26,9 @@ curl -sSL http://acs-public-mirror.oss-cn-hangzhou.aliyuncs.com/docker-engine/in
 curl -sSL https://get.daocloud.io/docker | sh
 ```
 
+
+
+
 此外，国内环境使用docker，强烈建议配置一个加速器：
 
 一条命令即可，非常简单，先到下面网址注册登陆，我使用github直接授权就可以登陆了，
@@ -38,17 +41,18 @@ curl -sSL https://get.daocloud.io/docker | sh
 
 docker使用非常简单：
 
-例如我想docker一个mysql：
+例如我想在docker使用mysql：
 
 > docker run --name some-mysql -e MYSQL_ROOT_PASSWORD=my-secret-pw -d mysql:tag
 
 说明： ... where some-mysql is the name you want to assign to your container, my-secret-pw is the password to be set for the MySQL root user and tag is the tag specifying the MySQL version you want. See the list above for relevant tags.
 
+发现物理机无法连接可以查看这个[权限配置](http://stackoverflow.com/questions/1559955/host-xxx-xx-xxx-xxx-is-not-allowed-to-connect-to-this-mysql-server)
 
-多敲命令行就明白了
+多敲命令行就明白了，个人觉得docker和git使用相差无几。
 
 参考：
 
 [Docker 教程](http://www.runoob.com/docker/docker-tutorial.html)
 
-[官方的英文写得好简单](https://docs.docker.com/)
+[官方的英文写得好简单又易懂](https://docs.docker.com/)
