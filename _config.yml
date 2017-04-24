@@ -7,7 +7,7 @@
 
 # Site settings
 title: Romennts
-brief-intro: Being a Full Stack Developer
+brief-intro: 致力于成为最会弹钢琴的架构师
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.yicodes.com" # the base hostname & protocol for your site
 
@@ -19,11 +19,11 @@ facebook_username: romennts
 github_username:  cncoder
 email: romennts@gmail.com
 weibo_username: vbcoder
-zhihu_username: cncoder
+zhihu_username: #cncoder
 linkedIn_username: #gaohaoyang
 dribbble_username:
 
-description_footer: 努力成为全栈工程师
+description_footer: 致力于成为最会弹钢琴的架构师
 
 # comments
 # two ways to comment, only choose one, and use your own short name
