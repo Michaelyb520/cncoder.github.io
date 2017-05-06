@@ -31,7 +31,7 @@ EXPERIENCE：
 
 ## 友情链接
 
-[高策GEGE](http://gaocegege.com) \| [政子哥哥](https://blog.zhengzi.me) \| [errorlife](https://steffan.cn)
+[高策GEGE](http://gaocegege.com) \| [政子哥哥](https://blog.zhengzi.me) \| [errorlife](https://steffan.cn) \| [XiaoleiTech](https://xiaolei.tech)
 
 ## Comments
 
