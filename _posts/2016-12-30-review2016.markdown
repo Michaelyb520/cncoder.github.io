@@ -58,13 +58,3 @@ tags: 随笔 review
 * 在备考软件设计师过程中，加强Java、算法、Oracle数据库、计算机底层（CSAPP）学习
 
 * 计划明年要1000+ contributions，followers就没有打算了，毕竟我不是做轮子的
-
-#### 不得不说的2017大project ：
-
-请解密此字符串获得：
-
-```
-
-aHR0cHM6Ly95aWNvZGVzLmNvbS9pbWcvcmV2aWV3LzI5NzU5NTQ0NDI4ODYwMDk2MC5qcGc=
-
-```
