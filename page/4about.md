@@ -15,7 +15,7 @@ type: page
 
 在校大三学生，网名易极。
 
-Google Fan，主要使用Java，熟悉HTTP协议和Servlet工作机制，熟练使用spring、 springMVC、Struts2、hibernate等J2EE框架进行系统代码开发，对MySQL调优有一定的了解。研究过websocket底层实现原理。另外还掌握常用运维工具以及使用方法，使用两年AWS的EC2实现线上产品自动化测试、部署与维护。
+帝都北漂者，目前在AWS（中国）做实习解决方案架构师，熟悉AWS 的各项服务。
 
 EXPERIENCE：
 
@@ -27,7 +27,6 @@ EXPERIENCE：
 * GitHub：[cocoder](https://github.com/cncoder)
 * email：romennts@gmail.com
 * [Weibo](http://weibo.com/vbcoder)
-* [Facebook](https://www.facebook.com/romennts)
 
 ## 友情链接
 
