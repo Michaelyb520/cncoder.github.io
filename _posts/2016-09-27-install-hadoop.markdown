@@ -109,8 +109,10 @@ sudo apt-get install oracle-java8-set-default
 sudo useradd -m  hadoop     #-m参数表示同时创建用户的家目录 <br>
 sudo usermod -s  /bin/bash hadoop    # 指定默认登陆shell<br>
 sudo passwd hadoop    #修改用户默认的密码
+cp authorized_keys .ssh/authorized_keys
 
 # 便捷： export user=heamon7 && sudo useradd -m $user && sudo usermod -s /bin/bash $user && sudo passwd $user
+# cp authorized_keys .ssh/authorized_keys
 
 ````
 
